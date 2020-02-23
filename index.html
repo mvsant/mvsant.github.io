@@ -185,25 +185,6 @@
           </div>
 
           <div
-            class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="resume-content">
-              <h3 class="mb-0">Junior Web Designer</h3>
-              <div class="subheading mb-3">Shout! Media Productions</div>
-              <p>
-                Podcasting operational change management inside of workflows to
-                establish a framework. Taking seamless key performance
-                indicators offline to maximise the long tail. Keeping your eye
-                on the ball while performing a deep dive on the start-up
-                mentality to derive convergence on cross-platform integration.
-              </p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">July 2010 - December 2011</span>
-            </div>
-          </div>
-
-          <div
             class="resume-item d-flex flex-column flex-md-row justify-content-between"
           >
             <div class="resume-content">
@@ -340,10 +321,6 @@
               <i class="fa-li fa fa-check"></i>
               Cross Functional Teams
             </li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Agile Development &amp; Scrum
-            </li>
           </ul>
         </div>
       </section>
@@ -387,29 +364,61 @@
     <section id="portfolio" style="background:navy" class="resume-section p-3 p-lg-5 align-items-center">
       <div id="carouselExampleControls" class="carousel slide" data-interval="false">
         <div class="carousel-inner">
+          <!-- Carousel 1 -->
           <div class="carousel-item active">
-            <img class="d-block" src="img/profile.jpeg" alt="First slide">
-          </div>
-          <div class="carousel-item">
             <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
               <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
               </div>
-              <div class="carousel-caption d-none d-md-block">
-                <h5 class="text-center text-white bg-success">Poetry page</h5>
+              <img class="img-fluid" src="img/weather.jpg" alt="">
+              <div class="carousel-caption d-md-block">
+                <h5 class="text-center text-white bg-primary">Openweather vanilla</h5>
               </div>
-              <img class="img-fluid" src="img/poetry_page.jpg" alt="">
             </div>
           </div>
+          <!-- Carousel 2 -->
           <div class="carousel-item">
-            <img class="d-block w-100" src="..." alt="Third slide">
+            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+              <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              </div>
+              <img class="img-fluid" src="img/next.jpg" alt="">
+              <div class="carousel-caption d-md-block">
+                <h5 class="text-center text-white bg-primary">Next Github API</h5>
+              </div>
+            </div>
           </div>
-        </div>
+          <!-- Carousel 3 -->
+          <div class="carousel-item">
+            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+              <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              </div>
+              <img class="img-fluid" src="img/oglobo.jpg" alt="">
+              <div class="carousel-caption d-md-block">
+                <h5 class="text-center text-white bg-primary">Globo copycat</h5>
+              </div>
+            </div>
+          </div>
+          <!-- Carousel 4 -->
+          <div class="carousel-item">
+            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+              <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              </div>
+              <img class="img-fluid" src="img/poetry_page.jpg" alt="">
+              <div class="carousel-caption d-md-block">
+                <h5 class="text-center text-white bg-primary">Poetry page</h5>
+              </div>
+            </div>
+          </div>
+          <!-- Carousel 5 -->
+          <div class="carousel-item">
+            <img class="d-block w-100" src="..." alt="Fifth slide">
+          </div>
+
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon bg-success rounded-circle p-4" aria-hidden="true"></span>
+          <span class="carousel-control-prev-icon bg-primary rounded-circle p-4" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
         </a>
         <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon bg-success rounded-circle p-4" aria-hidden="true"></span>
+          <span class="carousel-control-next-icon bg-primary rounded-circle p-4" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
       </div>
@@ -420,7 +429,7 @@
 
     <!-- Portfolio Modals -->
 
-     <!-- Portfolio Modal 1 -->
+  <!-- Portfolio Modal 1 -->
   <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
     <div class="modal-dialog modal-xl" role="document">
       <div class="modal-content">
@@ -434,24 +443,71 @@
             <div class="row justify-content-center">
               <div class="col-lg-8">
                 <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Poetry page</h2>
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Openweather vanilla</h2>
                 <!-- Icon Divider -->
                 <div class="divider-custom">
                   <div class="divider-custom-line"></div>
                   <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
+                    <i class="far fa-smile-wink"></i>
                   </div>
                   <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/poetry_page.jpg" alt="">
+                <img class="img-fluid rounded mb-5" src="gif/weather.gif" alt="Application animation">
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Uma simples página de poesia feita com HTML5 e CSS3 com o uso de display-grid.</p>
-                <a class="btn btn-success" href="https://marlonveiga-santos.github.io/poetrypage/"  target="_blank">
+                <p class="mb-5">Aplicação que consome a API openweather para exibição de tempo e temperatura. Feita com CSS, Javascript e HTML puros. Pode ser facilmente convertida para um widget devido a sua estrutura ser livre d outras dependências.</p>
+                <a class="btn btn-success m-2" href="https://marlonveiga-santos.github.io/openweather-api-vanilla/"  target="_blank">
                   <i class="fas fa-play"></i>
                   Demo
                 </a>
-                <a class="btn btn-info" href="https://github.com/marlonveiga-santos/poetrypage"  target="_blank">
+                <a class="btn btn-info m-2" href="https://github.com/marlonveiga-santos/openweather-api-vanilla"  target="_blank">
+                  <i class="fas fa-external-link-alt"></i>
+                  Github
+                </a>
+                <button class="btn btn-danger m-2" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  Fechar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Modal 2 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-2" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Next GIthub API</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="far fa-smile-wink"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image -->
+                <img class="img-fluid rounded mb-5" src="gif/next.gif" alt="">
+                <!-- Portfolio Modal - Text -->
+                <p class="mb-5">Single-Page-Application SSR consumindo a API do Github para exibir os últimos commits dos repositórios. Utilizado React-hooks, NextJS, Redux, Material-UI com theme provider, infinite-scrool-component,Storybook, CSS-in-JS e hospedagem Heroku.</p>
+                <a class="btn btn-success" href="https://nextjs-github-api.herokuapp.com/"  target="_blank">
+                  <i class="fas fa-play"></i>
+                  Demo
+                </a>
+                <a class="btn btn-info" href="https://github.com/marlonveiga-santos/nextjs-github-visualizer"  target="_blank">
                   <i class="fas fa-external-link-alt"></i>
                   Github
                 </a>
@@ -467,8 +523,102 @@
     </div>
   </div>
 
-  <!-- Portfolio Modal 2 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+     <!-- Portfolio Modal 3 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-3" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Globo copycat</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="far fa-smile-wink"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image -->
+                <img class="img-fluid rounded mb-5" src="gif/poetry_page.gif" alt="">
+                <!-- Portfolio Modal - Text -->
+                <p class="mb-5">Desafio Globonews web. Efetuado utilizando Rect-native, react-navigation, React-webview e Axios. Hospedado na plataforma Expo</p>
+                <a class="btn btn-success" href="https://marlonveiga-santos.github.io/poetrypage/"  target="_blank">
+                  <i class="fas fa-mobile-alt"></i>
+                  Snack
+                </a>
+                <a class="btn btn-info" href="https://github.com/marlonveiga-santos/oglobo-copycat"  target="_blank">
+                  <i class="fas fa-external-link-alt"></i>
+                  Github
+                </a>
+                <button class="btn btn-danger" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  Fechar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-4" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+              <i class="fas fa-times"></i>
+            </span>
+          </button>
+          <div class="modal-body text-center">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- Portfolio Modal - Title -->
+                  <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Poetry page</h2>
+                  <!-- Icon Divider -->
+                  <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon">
+                      <i class="far fa-smile-wink"></i>
+                    </div>
+                    <div class="divider-custom-line"></div>
+                  </div>
+                  <!-- Portfolio Modal - Image -->
+                  <img class="img-fluid rounded mb-5" src="gif/poetry_page.gif" alt="">
+                  <!-- Portfolio Modal - Text -->
+                  <p class="mb-5">Página única de poesia feita com HTML5, CSS3, JS2015 e SASS com o uso do atributo display-grid. Efeito de alteração de tema utilizando query selector nativo do JavaScript.</p>
+                  <a class="btn btn-success" href="https://marlonveiga-santos.github.io/poetrypage/"  target="_blank">
+                    <i class="fas fa-play"></i>
+                    Demo
+                  </a>
+                  <a class="btn btn-info" href="https://github.com/marlonveiga-santos/poetrypage"  target="_blank">
+                    <i class="fas fa-external-link-alt"></i>
+                    Github
+                  </a>
+                  <button class="btn btn-danger" href="#" data-dismiss="modal">
+                    <i class="fas fa-times fa-fw"></i>
+                    Fechar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- Portfolio Modal 5 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-5" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
     <div class="modal-dialog modal-xl" role="document">
       <div class="modal-content">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -495,53 +645,6 @@
                 <!-- Portfolio Modal - Text -->
                 <p class="mb-5">Uma simples página de poesia feita com HTML5 e CSS3 com o uso de display-grid.</p>
                 <button class="btn btn-success" href="#" data-dismiss="modal">
-                  <i class="fas fa-play"></i>
-                  Demo
-                </button>
-                <button class="btn btn-info" href="#" data-dismiss="modal">
-                  <i class="fas fa-external-link-alt"></i>
-                  Github
-                </button>
-                <button class="btn btn-danger" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Fechar
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-   <!-- Portfolio Modal 3 -->
-   <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Poetry page</h2>
-                <!-- Icon Divider -->
-                <div class="divider-custom">
-                  <div class="divider-custom-line"></div>
-                  <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/poetry_page.jpg" alt="">
-                <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Uma simples página de poesia feita com HTML5 e CSS3 com o uso de display-grid.</p>
-                <button class="btn btn-success" href="https://github.com/marlonveiga-santos/poetrypage"  target="_blank">
                   <i class="fas fa-play"></i>
                   Demo
                 </button>
