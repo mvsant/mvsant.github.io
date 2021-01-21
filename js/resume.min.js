@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Marlon Veiga's resumee v5.0.8 (https://github.com/marlonveiga-santos)
- * Copyright 2013-2020 Marlon Veiga et al
+ * Copyright 2013-2021 Marlon Veiga et al
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
 
